@@ -1,4 +1,4 @@
-FROM golang:1.11-alpine AS 
+FROM golang:1.11-alpine AS build
 MAINTAINER scott
 LABEL "purpose"="Go Application Service Deployment"
 WORKDIR /src/
